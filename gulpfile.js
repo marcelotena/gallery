@@ -25,3 +25,10 @@ gulp.task('compass', function() {
         .on('error', gutil.log))
         .pipe(gulp.dest('builds/development/css'))
 });
+
+gulp.task('watch', function() {
+    gulp.watch(jsSources, ['js']);
+    gulp.watch('components/sass/*.scss', ['compass']);
+});
+
+gulp.task('default', ['js', 'compass', 'watch']);
