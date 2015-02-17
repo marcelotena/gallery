@@ -1,0 +1,10 @@
+{
+  "name": "GalleryTest",
+  "version": "1.0.0",
+  "description": "Responsive Gallery in JQuery",
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "Marcelo Tena Vicente"
+}

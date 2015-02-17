@@ -1,0 +1,52 @@
+// layout.scss
+// ==================
+
+.no-js {
+  height: 100%;
+}
+.no-js body {
+  height: 100%;
+  min-height: 400px;
+}
+
+body {
+  position: relative;
+  background: url(img/common/bg_rnav.png) #303030;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: #eee url(img/common/bg_pc.gif) right top repeat;
+}
+#loader img {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+#wrapper {
+  visibility: hidden;
+  height: 100%;
+  overflow: hidden;
+}
+
+#wrapper.show {
+  height: auto;
+  overflow: visible;
+}
+
+.disable-hover,
+.disable-hover * {
+  pointer-events: none !important;
+}
