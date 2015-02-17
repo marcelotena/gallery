@@ -6,5 +6,9 @@
     "type": "git",
     "url": "?.git"
   },
-  "author": "Marcelo Tena Vicente"
+  "author": "Marcelo Tena Vicente",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-util": "^3.0.3"
+  }
 }
